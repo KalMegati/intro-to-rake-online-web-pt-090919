@@ -3,7 +3,7 @@ task :hello do
   puts "hello from Rake!"
 end
 
-desc 'pets the kitty'
+#desc 'pets the kitty'
 task :patto do
   puts "squish that cat!"
 end
