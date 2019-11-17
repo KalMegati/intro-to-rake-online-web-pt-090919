@@ -16,10 +16,12 @@ namespace :db do
     Student.create_table
   end
   
+  desc 'links to the environment file'
   task :environment do
     require_relative './config/environment'
   end
   
+  desc
   task :seed do
     
   end
